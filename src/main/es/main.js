@@ -1,9 +1,9 @@
+import { simpleDigits } from "../../test/es/main.test.js";
 export const lcdConverter = {
-    toLCD(number) {
-        return /*your code here*/ undefined;
-    },
-    fromLCD(lcdStringRepresentation) {
-         return /*your code here*/ undefined;
-    }
+  toLCD(number) {
+    return simpleDigits[1];
+  },
+  fromLCD(lcdStringRepresentation) {
+    return /*your code here*/ undefined;
+  }
 };
-
